@@ -3,7 +3,7 @@ export interface Product {
     name: string,
     qty: number
 }
-
+// zrobiłem exporty
 export class Supermarket {
     private _fruits: Array<Product> = [];
     private _sweets: Array<Product> = [];
